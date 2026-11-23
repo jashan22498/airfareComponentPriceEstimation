@@ -1,0 +1,309 @@
+{
+  "feature_names": [
+    "duration",
+    "days_left",
+    "airline_Air_India",
+    "airline_GO_FIRST",
+    "airline_Indigo",
+    "airline_SpiceJet",
+    "airline_Vistara",
+    "source_city_Chennai",
+    "source_city_Delhi",
+    "source_city_Hyderabad",
+    "source_city_Kolkata",
+    "source_city_Mumbai",
+    "departure_time_Early_Morning",
+    "departure_time_Evening",
+    "departure_time_Late_Night",
+    "departure_time_Morning",
+    "departure_time_Night",
+    "stops_two_or_more",
+    "stops_zero",
+    "arrival_time_Early_Morning",
+    "arrival_time_Evening",
+    "arrival_time_Late_Night",
+    "arrival_time_Morning",
+    "arrival_time_Night",
+    "destination_city_Chennai",
+    "destination_city_Delhi",
+    "destination_city_Hyderabad",
+    "destination_city_Kolkata",
+    "destination_city_Mumbai",
+    "class_Economy"
+  ],
+  "rf_importances": [
+    {
+      "feature": "class_Economy",
+      "importance": 0.887784
+    },
+    {
+      "feature": "duration",
+      "importance": 0.055974
+    },
+    {
+      "feature": "days_left",
+      "importance": 0.01513
+    },
+    {
+      "feature": "airline_Air_India",
+      "importance": 0.005903
+    },
+    {
+      "feature": "airline_Vistara",
+      "importance": 0.004492
+    },
+    {
+      "feature": "source_city_Delhi",
+      "importance": 0.003871
+    },
+    {
+      "feature": "destination_city_Delhi",
+      "importance": 0.003623
+    },
+    {
+      "feature": "source_city_Mumbai",
+      "importance": 0.002395
+    },
+    {
+      "feature": "destination_city_Mumbai",
+      "importance": 0.002047
+    },
+    {
+      "feature": "source_city_Kolkata",
+      "importance": 0.001848
+    },
+    {
+      "feature": "destination_city_Kolkata",
+      "importance": 0.001827
+    },
+    {
+      "feature": "destination_city_Hyderabad",
+      "importance": 0.001787
+    },
+    {
+      "feature": "stops_two_or_more",
+      "importance": 0.001771
+    },
+    {
+      "feature": "arrival_time_Evening",
+      "importance": 0.001545
+    },
+    {
+      "feature": "source_city_Hyderabad",
+      "importance": 0.001435
+    },
+    {
+      "feature": "arrival_time_Night",
+      "importance": 0.001216
+    },
+    {
+      "feature": "source_city_Chennai",
+      "importance": 0.000985
+    },
+    {
+      "feature": "departure_time_Evening",
+      "importance": 0.000975
+    },
+    {
+      "feature": "departure_time_Morning",
+      "importance": 0.000955
+    },
+    {
+      "feature": "destination_city_Chennai",
+      "importance": 0.000948
+    },
+    {
+      "feature": "departure_time_Night",
+      "importance": 0.000789
+    },
+    {
+      "feature": "departure_time_Early_Morning",
+      "importance": 0.000775
+    },
+    {
+      "feature": "arrival_time_Early_Morning",
+      "importance": 0.000678
+    },
+    {
+      "feature": "arrival_time_Morning",
+      "importance": 0.000597
+    },
+    {
+      "feature": "airline_GO_FIRST",
+      "importance": 0.000154
+    },
+    {
+      "feature": "airline_Indigo",
+      "importance": 0.000147
+    },
+    {
+      "feature": "arrival_time_Late_Night",
+      "importance": 0.000126
+    },
+    {
+      "feature": "airline_SpiceJet",
+      "importance": 0.000113
+    },
+    {
+      "feature": "departure_time_Late_Night",
+      "importance": 5.5e-05
+    },
+    {
+      "feature": "stops_zero",
+      "importance": 5.4e-05
+    }
+  ],
+  "lr_coefficients": [
+    {
+      "feature": "class_Economy",
+      "coefficient": -44929.06,
+      "abs_coef": 44929.06
+    },
+    {
+      "feature": "stops_zero",
+      "coefficient": -7613.33,
+      "abs_coef": 7613.33
+    },
+    {
+      "feature": "airline_Vistara",
+      "coefficient": 4068.91,
+      "abs_coef": 4068.91
+    },
+    {
+      "feature": "airline_SpiceJet",
+      "coefficient": 2303.99,
+      "abs_coef": 2303.99
+    },
+    {
+      "feature": "airline_Indigo",
+      "coefficient": 2124.33,
+      "abs_coef": 2124.33
+    },
+    {
+      "feature": "stops_two_or_more",
+      "coefficient": 2105.24,
+      "abs_coef": 2105.24
+    },
+    {
+      "feature": "days_left",
+      "coefficient": -1769.91,
+      "abs_coef": 1769.91
+    },
+    {
+      "feature": "destination_city_Hyderabad",
+      "coefficient": -1712.07,
+      "abs_coef": 1712.07
+    },
+    {
+      "feature": "airline_GO_FIRST",
+      "coefficient": 1692.09,
+      "abs_coef": 1692.09
+    },
+    {
+      "feature": "source_city_Hyderabad",
+      "coefficient": -1675.43,
+      "abs_coef": 1675.43
+    },
+    {
+      "feature": "source_city_Kolkata",
+      "coefficient": 1596.25,
+      "abs_coef": 1596.25
+    },
+    {
+      "feature": "destination_city_Delhi",
+      "coefficient": -1563.23,
+      "abs_coef": 1563.23
+    },
+    {
+      "feature": "departure_time_Late_Night",
+      "coefficient": 1540.67,
+      "abs_coef": 1540.67
+    },
+    {
+      "feature": "source_city_Delhi",
+      "coefficient": -1412.89,
+      "abs_coef": 1412.89
+    },
+    {
+      "feature": "destination_city_Kolkata",
+      "coefficient": 1358.13,
+      "abs_coef": 1358.13
+    },
+    {
+      "feature": "arrival_time_Night",
+      "coefficient": 1135.49,
+      "abs_coef": 1135.49
+    },
+    {
+      "feature": "arrival_time_Late_Night",
+      "coefficient": 967.11,
+      "abs_coef": 967.11
+    },
+    {
+      "feature": "arrival_time_Evening",
+      "coefficient": 923.7,
+      "abs_coef": 923.7
+    },
+    {
+      "feature": "departure_time_Morning",
+      "coefficient": 866.53,
+      "abs_coef": 866.53
+    },
+    {
+      "feature": "departure_time_Early_Morning",
+      "coefficient": 810.17,
+      "abs_coef": 810.17
+    },
+    {
+      "feature": "arrival_time_Early_Morning",
+      "coefficient": -768.13,
+      "abs_coef": 768.13
+    },
+    {
+      "feature": "departure_time_Evening",
+      "coefficient": 737.29,
+      "abs_coef": 737.29
+    },
+    {
+      "feature": "departure_time_Night",
+      "coefficient": 663.01,
+      "abs_coef": 663.01
+    },
+    {
+      "feature": "arrival_time_Morning",
+      "coefficient": 461.4,
+      "abs_coef": 461.4
+    },
+    {
+      "feature": "duration",
+      "coefficient": 308.82,
+      "abs_coef": 308.82
+    },
+    {
+      "feature": "destination_city_Chennai",
+      "coefficient": -239.51,
+      "abs_coef": 239.51
+    },
+    {
+      "feature": "source_city_Mumbai",
+      "coefficient": -208.14,
+      "abs_coef": 208.14
+    },
+    {
+      "feature": "airline_Air_India",
+      "coefficient": 114.18,
+      "abs_coef": 114.18
+    },
+    {
+      "feature": "source_city_Chennai",
+      "coefficient": -75.34,
+      "abs_coef": 75.34
+    },
+    {
+      "feature": "destination_city_Mumbai",
+      "coefficient": -33.34,
+      "abs_coef": 33.34
+    }
+  ],
+  "lr_intercept": 49705.8
+}

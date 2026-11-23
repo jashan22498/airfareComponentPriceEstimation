@@ -1,0 +1,48 @@
+{
+  "Linear Regression": {
+    "test": {
+      "MAE": 4553.29,
+      "MSE": 45720769.76,
+      "RMSE": 6761.71,
+      "R2": 0.9113,
+      "MAPE (%)": 46.24,
+      "Explained Variance": 0.9113,
+      "Max Error": 59299.73
+    },
+    "train": {
+      "MAE": 4573.98,
+      "MSE": 45591331.05,
+      "RMSE": 6752.14,
+      "R2": 0.9115,
+      "MAPE (%)": 46.57,
+      "Explained Variance": 0.9115,
+      "Max Error": 64204.27
+    },
+    "training_time_sec": 0.22,
+    "inference_time_sec": 0.002,
+    "latency_ms_per_sample": 0.0
+  },
+  "Random Forest Regressor": {
+    "test": {
+      "MAE": 1298.68,
+      "MSE": 8033823.04,
+      "RMSE": 2834.4,
+      "R2": 0.9844,
+      "MAPE (%)": 9.09,
+      "Explained Variance": 0.9844,
+      "Max Error": 48340.42
+    },
+    "train": {
+      "MAE": 989.31,
+      "MSE": 4505840.22,
+      "RMSE": 2122.7,
+      "R2": 0.9913,
+      "MAPE (%)": 7.14,
+      "Explained Variance": 0.9913,
+      "Max Error": 38560.68
+    },
+    "training_time_sec": 6.35,
+    "inference_time_sec": 0.131,
+    "latency_ms_per_sample": 0.0022
+  }
+}
